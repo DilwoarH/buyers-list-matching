@@ -1,19 +1,19 @@
 ## buyers-list-matching
 # 1.  download the required registers into a postgres DB, this currently includes:
 
-government-organisation
+government-organisation - https://government-organisation.register.gov.uk/
 
-government-service
+government-service - https://government-service.register.gov.uk/
 
-internal-drainage-boards
+internal-drainage-boards - https://internal-drainage-board.register.gov.uk/
 
-local-authority-eng
+local-authority-eng - https://local-authority-eng.register.gov.uk/
 
-local-authority-sct
+local-authority-sct - https://local-authority-sct.register.gov.uk/
 
-local-authority-nir
+local-authority-nir - https://local-authority-nir.register.gov.uk/
 
-principal-local-authority
+principal-local-authority - https://principal-local-authority.register.gov.uk/
 
 
 # 2. create a database called buyers and load in the buyers list with the following column names:
