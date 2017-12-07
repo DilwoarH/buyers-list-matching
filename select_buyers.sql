@@ -1,3 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS fuzzystrmatch;
+
 alter table buyers
 drop column IF EXISTS "normalize_name";
 alter table buyers
